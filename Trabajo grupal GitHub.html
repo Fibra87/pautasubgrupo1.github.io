@@ -4,11 +4,18 @@
 </html>
 
 <body>
+
     <h1>
         ¿Que es Github?
     </h1>
 
-    <h2>
+    <nav class="navegacion-principal contenedor">
+        <a href="#definicion">Definicion</a>
+        <a href="#ventajas">Ventajas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <h2 id="definicion">
         Definicion:
     </h2>
 
@@ -17,7 +24,7 @@
         principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue
         escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc.
     </p>
-    <h2>
+    <h2 id="ventajas">
         Ventajas de GitHub
     </h2>
     <p>
@@ -38,6 +45,28 @@
         Si queres saber más, visita este enlace.
     </p>
     <!-- Poner enlace-->
+    <h2 id="contacto">Contacto</h2>
+
+    <form>
+        <fieldset>
+            <legend>Contactanos llenando todos los campos</legend>
+
+                <label >Nombre</label>
+                <input type="text" placeholder="Nombre">
+
+                <label >Telefono</label>
+                <input type="tel" placeholder="Telefono">
+
+                <label >Correo</label>
+                <input type="email" placeholder="email">
+
+                <label >Comentario</label>
+                <textarea>Comentario</textarea>
+
+                <button>Enviar</button>
+
+        </fieldset>
+    </form>
 
     
 </body>
